@@ -13,7 +13,7 @@ connection.connect((err) => {
     console.error('Erro ao conectar ao MySQL: ' + err.stack);
     return;
   }
-  console.log('Conexão bem-sucedida ao MySQL como ID: ' + connection.threadId);
+  console.log('Conexão bem-sucedida com MySQL como ID: ' + connection.threadId);
 });
 
 const app = express();
